@@ -24,6 +24,7 @@ def desenvolvedor(id):
     if request.method == 'GET':
         try:
             response = desenvolvedores[id]
+
         except IndexError:
             mensagem = 'Desenvolvedor de ID {} não existe'.format(id)
             response = {'status': 'erro', 'mensagem': mensagem}
