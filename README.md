@@ -1,2 +1,2 @@
 # dev_api
- Projeto REST Api com Flask e Flask-RESTful - cadastro de desenvolvedores 
+ Projeto REST Api com Flask e Flask-RESTful - Cadastro de Desenvolvedores 
